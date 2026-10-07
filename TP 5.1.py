@@ -18,7 +18,7 @@ reseau.fit(X, y)
 score = reseau.score(X, y)
 print("Précision :", score)        # ex. : 0.98  ->  98 % de bonnes réponses !
 
-# 5. PRÉDICTION sur une nouvelle fleur jamais vue
+# 5. PRÉDICTION sur une nouvelle fleur jamais vu
 nouvelle_fleur = [[5.1, 3.5, 1.4, 0.2]]
 print("Espèce prédite :", reseau.predict(nouvelle_fleur))
 
